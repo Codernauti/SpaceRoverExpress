@@ -1,0 +1,176 @@
+<!--
+Space Rover Express
+Copyright (C) 2017 Codernauti
+Eduard Bicego, Federico Ghirardelli
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/game_act_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/silver_light">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/game_app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp">
+
+        <!--<android.support.v7.widget.Toolbar
+            android:id="@+id/dashboard_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:title="Banana"
+            android:background="@color/colorPrimary"
+            app:theme="@style/SweetieThemeToolbar"
+            app:popupTheme="@style/Theme.AppCompat.Light.NoActionBar">
+        </android.support.v7.widget.Toolbar>-->
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/game_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:tabTextColor="@color/silver"
+            app:tabSelectedTextColor="@color/white"
+            app:theme="@style/AppTheme"
+            />
+
+        <!--app:tabMode="fixed"
+        app:tabMaxWidth="0dp"
+        app:tabGravity="fill"-->
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/game_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_app_bar_layout"
+        app:layout_constraintBottom_toTopOf="@+id/game_status"
+        />
+
+    
+    <LinearLayout
+        android:id="@+id/game_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dp"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+
+        app:layout_constraintTop_toBottomOf="@+id/game_view_pager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!--<Switch
+            android:text="Decrypto "
+            android:id="@+id/mini_game_one_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:clickable="false"/>
+
+        <Switch
+            android:text="ColorButtons "
+            android:id="@+id/mini_game_two_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:clickable="false"/>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:textColor="@color/silver"
+            android:text="Decrypto"/>
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical|center_horizontal">
+
+            <ImageView
+                android:id="@+id/mini_game_one_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/game_light_off"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:padding="6dp"
+            android:textColor="@color/silver"
+            android:text="ColorButtons"/>
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center_vertical|center_horizontal">
+
+            <ImageView
+                android:id="@+id/mini_game_two_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/game_light_off"/>
+
+        </LinearLayout>
+
+        <!--<View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawagame_light_onight" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawagame_light_onight"/>-->
+
+
+        <!--<TextView
+            android:text="A timer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="6dp"/>-->
+
+        <TextView
+            android:id="@+id/game_time_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:textColor="@color/silver_light"
+            android:text="00:00"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

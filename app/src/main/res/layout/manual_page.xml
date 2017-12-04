@@ -1,0 +1,64 @@
+<!--
+Space Rover Express
+Copyright (C) 2017 Codernauti
+Eduard Bicego, Federico Ghirardelli
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/silver_light">
+
+    <LinearLayout
+        android:id="@+id/manual_page_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/manual_page_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:textSize="30sp"
+            android:text="Title"
+            />
+
+        <TextView
+            android:id="@+id/manual_page_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:layout_marginStart="6dp"
+            android:textStyle="italic"
+            android:text="This must be the description of the game"
+
+            />
+
+        <TextView
+            android:id="@+id/manual_page_instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

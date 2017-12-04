@@ -1,0 +1,73 @@
+<!--
+Space Rover Express
+Copyright (C) 2017 Codernauti
+Eduard Bicego, Federico Ghirardelli
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="root_title">
+
+    <PreferenceCategory
+        android:title="@string/rover_options_title">
+
+        <!--<SwitchPreference
+            android:key="map_zoom"
+            android:title="@string/map_zoom_title"
+            android:summary="@string/map_zoom_summary"
+            android:defaultValue="true"
+            />-->
+
+        <SwitchPreference
+            android:key="manual_map_state"
+            android:title="@string/manual_map_state_title"
+            android:summary="@string/manual_map_state_summary"
+            android:defaultValue="false"
+            />
+
+        <SwitchPreference
+            android:key="map_compass"
+            android:title="@string/map_compass"
+            android:summary="@string/map_compass_summary"
+            android:defaultValue="true"
+            />
+
+        <SwitchPreference
+            android:key="pilot_assistant_mode"
+            android:title="@string/pilot_assistant_mode_title"
+            android:summary="@string/pilot_assistant_mode_summary"
+            android:defaultValue="false"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/other_option_title">
+
+        <Preference
+            android:key="clear_sp_key"
+            android:title="@string/clear_shared_pref"
+            />
+
+        <Preference
+            android:key="credits_key"
+            android:title="@string/credits"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,236 @@
+<!--
+Space Rover Express
+Copyright (C) 2017 Codernauti
+Eduard Bicego, Federico Ghirardelli
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/silver_light">
+
+    <FrameLayout
+        android:id="@+id/stats_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/stats_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/stats_rover_img"
+                    android:layout_width="140dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="16dp"
+                    android:src="@mipmap/rover_4"
+
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toTopOf="@+id/stats_rover_name"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+                <TextView
+                    android:id="@+id/stats_rover_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rover"
+                    android:textAllCaps="true"
+                    android:textColor="@color/stat_main"
+
+                    app:layout_constraintHorizontal_chainStyle="spread_inside"
+
+                    app:layout_constraintTop_toBottomOf="@+id/stats_rover_img"
+                    app:layout_constraintBottom_toTopOf="@+id/stats_rover_km_label"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/stats_rover_level"
+
+                    />
+
+                <TextView
+                    android:id="@+id/stats_rover_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/level_default"
+                    android:textColor="@color/stat_sub"
+
+                    app:layout_constraintBottom_toBottomOf="@+id/stats_rover_name"
+                    app:layout_constraintTop_toTopOf="@+id/stats_rover_name"
+                    app:layout_constraintStart_toEndOf="@+id/stats_rover_name"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    />
+
+
+                <TextView
+                    android:id="@+id/stats_rover_exp_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/experience_label"
+                    android:textColor="@color/stat_sub"
+
+                    app:layout_constraintHorizontal_chainStyle="spread_inside"
+
+                    app:layout_constraintTop_toBottomOf="@+id/stats_rover_name"
+                    app:layout_constraintBottom_toTopOf="@+id/stats_rover_km_label"
+                    app:layout_constraintStart_toStartOf="@+id/stats_rover_name"
+                    app:layout_constraintEnd_toStartOf="@id/stats_rover_exp"
+                    />
+
+                <TextView
+                    android:id="@+id/stats_rover_exp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/stat_sub"
+
+                    tools:text="10000"
+
+                    app:layout_constraintTop_toTopOf="@id/stats_rover_exp_label"
+                    app:layout_constraintStart_toEndOf="@+id/stats_rover_exp_label"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="@+id/stats_rover_exp_label"
+                    />
+
+                <TextView
+                    android:id="@+id/stats_rover_km_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+                    android:text="@string/km_traveled"
+                    android:textColor="@color/stat_sub"
+
+                    app:layout_constraintHorizontal_chainStyle="spread_inside"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/stats_rover_exp_label"
+                    app:layout_constraintEnd_toStartOf="@+id/stats_rover_km"
+                    app:layout_constraintTop_toBottomOf="@+id/stats_rover_exp_label"
+
+                    />
+
+                <TextView
+                    android:id="@+id/stats_rover_km"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/stat_sub"
+
+                    tools:text="42"
+
+                    app:layout_constraintTop_toTopOf="@id/stats_rover_km_label"
+                    app:layout_constraintStart_toEndOf="@+id/stats_rover_km_label"
+                    app:layout_constraintEnd_toEndOf="@+id/stats_rover_exp"
+                    app:layout_constraintBottom_toBottomOf="@+id/stats_rover_km_label"
+                    />
+
+            </android.support.constraint.ConstraintLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@color/schedule_stat">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/location_found_label"
+                    android:textColor="@color/stat_paragraph"/>
+                <TextView
+                    android:id="@+id/location_finded_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/location_found_value"
+                    android:textColor="@color/stat_paragraph"/>
+
+            </LinearLayout>
+
+            <GridLayout
+                android:id="@+id/grid_locations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:gravity="center"
+                android:background="@color/schedule_stat">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/badges_unlocked_label"
+                    android:textColor="@color/stat_paragraph"/>
+                <TextView
+                    android:id="@+id/badges_unlocked_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/location_found_value"
+                    android:textColor="@color/stat_paragraph"/>
+            </LinearLayout>
+
+            <GridLayout
+                android:id="@+id/grid_badges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <include layout="@layout/location_item_discovered"
+            android:id="@+id/location_discovered_item"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:visibility="gone"
+
+            tools:visibility="visible"
+            />
+
+        <include layout="@layout/location_item_discovered"
+            android:id="@+id/location_cover_item"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:visibility="gone"
+
+            tools:visibility="visible"
+            />
+
+
+    </FrameLayout>
+</ScrollView>

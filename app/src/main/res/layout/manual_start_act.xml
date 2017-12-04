@@ -1,0 +1,102 @@
+<!--
+Space Rover Express
+Copyright (C) 2017 Codernauti
+Eduard Bicego, Federico Ghirardelli
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/silver_light">
+
+
+    <TextView
+        android:id="@+id/manual_start_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:textSize="30sp"
+        android:text="@string/manual_title"
+
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_bias="0.2"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/status_code_label"
+        />
+
+    <TextView
+        android:id="@+id/status_code_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/manual_start_explain"
+        android:padding="16dp"
+        android:layout_marginTop="20dp"
+
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_bias="0.2"
+
+        app:layout_constraintTop_toBottomOf="@id/manual_start_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/status_code_input"
+        />
+
+    <EditText
+        android:id="@+id/status_code_input"
+        android:layout_width="wrap_content"
+        android:minWidth="100dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="6dp"
+        android:layout_marginTop="25dp"
+        android:inputType="number"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:maxLength="2"
+
+        app:layout_constraintTop_toBottomOf="@+id/status_code_label"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/accept_status_code"
+
+        >
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/accept_status_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/manual_next_button"
+
+        android:layout_marginTop="25dp"
+
+        app:layout_constraintHorizontal_bias="0.9"
+
+        app:layout_constraintTop_toBottomOf="@+id/status_code_input"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+</android.support.constraint.ConstraintLayout>

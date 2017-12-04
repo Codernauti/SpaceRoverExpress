@@ -1,0 +1,272 @@
+<!--
+Space Rover Express
+Copyright (C) 2017 Codernauti
+Eduard Bicego, Federico Ghirardelli
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+<resources>
+    <string name="app_name">SpaceRoverExpress</string>
+    <string name="unlock">UNLOCK</string>
+
+    <!-- Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="home">Home</string>
+    <string name="badges">Badges</string>
+    <string name="statistics">Statistics</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="credits">Credits</string>
+
+    <string name="select_language">Select language</string>
+    <string name="select_role">Choose Your Role</string>
+
+    <string name="game">Game</string>
+
+    <!-- BottonNavigation -->
+    <string name="bottom_nav_map">Map</string>
+    <string name="bottom_nav_statistics">Statistics</string>
+    <string name="bottom_nav_options">Options</string>
+
+    <!-- Triggered dialog -->
+    <string name="trigger_location_found_dialog">You have discovered</string>
+    <string name="trigger_location_start">Continue</string>
+
+    <!-- Game -->
+    <string name="decrypto_button_unlock">UNLOCK</string>
+    <string name="color_button_done">DONE</string>
+    <string name="new_location_found">New location found!</string>
+    <string name="first_game_tutorial">Find the Status code and tell it to your assistant</string>
+
+    <!-- Stats -->
+    <string name="rover">Rover</string>
+    <string name="level_default">Level</string>
+    <string name="km_traveled">Kilometers traveled: </string>
+    <string name="experience_label">Total experience: </string>
+    <string name="location_found_value">0</string>
+    <string name="location_found_label">pointOfInterests found: </string>
+    <string name="badge_unlocked_value">0</string>
+    <string name="badges_unlocked_label">unlocked badges: </string>
+
+    <string name="google_locate_picker_key">YOUR GOOGLE API LOCATE KEY</string>
+
+    <string name="loremipsus">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+    <!-- MapState -->
+    <string name="change_to_above_map_view">Above view set</string>
+    <string name="change_to_gps_map_view">Rover view set</string>
+    <string name="change_to_fly_mode">Fly mode set</string>
+
+
+    <string name="title_location_1">Prato della Valle</string>
+    <string name="subtitle_location_1">A date with Galileo</string>
+    <string name="description_location_1">Eyes toward the sky and arm pointing at something up there: have you ever met Galileo Galilei in Padua? You will find him in the spectacular Prato della Valle, where he appears as one of the 78 statues of illustrious people that decorate the largest square of the city (maybe the largest in Europe!). The “Prato”, that’s what the locals call this square, although it actually has a elliptical shape and a green island at the centre. It’s in an area reclaimed from a swamp, which was drained at the end of the Eighteenth century. It has always been a lively place and it still hosts a busy market every Saturday.</string>
+
+    <string name="title_location_2">Sant’Antonio Basilica</string>
+    <string name="subtitle_location_2">Where Mantegna’s Sun shines</string>
+    <string name="description_location_2">For locals ”the Saint” is Saint Anthony: they’ll know who you mean. So universal and loved, he doesn’t even need to be named. Artists such as Giotto, Donatello, Mantegna and Giusto de’Menabuoi have all left their mark on “his” grand Basilica over the centuries. Its domes, its cloisters and its works of art reveal stories of devotion, spirituality and beauty. Inside you’ll find various starry vaults and outside a splendid sun on the entrance, a copy of the one by Mantegna, which you’ll find inside the Basilica. It’s an ancient symbol for divinity.</string>
+
+    <string name="title_location_3">Galileo’s House</string>
+    <string name="subtitle_location_3"> </string>
+    <string name="description_location_3">Padua is the place where Galileo Galilei lived “the best eighteen years of my whole life”, teaching, studying and observing the sky. He lived in a street once called Borgo Vignali and later rechristened via Galileo Galilei. Apparently that’s the place where he discovered Jupiter’s satellites, a crucial moment in the birth of the modern scientific method. The house is not open to visitors, but there’s a plaque outside in memory of the scientist. For the rest, just free your imagination!</string>
+
+    <string name="title_location_4">Chiesa di San Francesco</string>
+    <string name="subtitle_location_4">The stars on</string>
+    <string name="description_location_4">Almost hidden in a shadowy street, you will find this beautiful but neglected church, with 26 arches outside. Begun inthe fifteenth century, it was once part of a great complex, including a convent, the first hospital in Padua, the charitable Scuola della Carità and the Oratorio di Santa Margherita. Inside the church, between an almost-secret garden and a canvas ascribed to Veronese, you will also find a plaque to Stella Stella, dedicated by her son.</string>
+
+    <string name="title_location_5">Chiesa di Santa Sofia</string>
+    <string name="subtitle_location_5">On Galileo’s traces</string>
+    <string name="description_location_5">One of the oldest churches in town, Santa Sofia’s character comes from the contrast between the elegant external structure and the great sparseness of the interior. Its inclined façade can be intimidating, but it’s worth visiting the church because inside you will find other traces of Galileo’s presence. At the end of the nave is baptismal font where Vincenzo, the scientist’s third and last son, was christened.</string>
+
+    <string name="title_location_6">Borgo Altinate</string>
+    <string name="subtitle_location_6">The sense of the stars</string>
+    <string name="description_location_6">In the past, this street was one of the main thoroughfares of Padua, because it was near the main town canals, which are now filled with soil. The history and cultural richness of the area are evident in the surviving aristocratic palaces, the Pollini conservatory and the Centro Culturale Altinate. Together, they create a lively atmosphere, in which it is pleasant to stroll up to the porta Altinate. Just before you get there, you might notice a curious six pointed ”star” represented on a shield. Some believe it is the symbol of an ancient urban district; others say it represents the wheel of a printing-press, in memory of the first family of publishers in town.</string>
+
+    <string name="title_location_7">Chiesa degli Eremitani</string>
+    <string name="subtitle_location_7">The face of the planets</string>
+    <string name="description_location_7">Known as the Chiesa degli Eremitani, the Church of the Hermits, because the old monastery attached to it (the current location of the Musei Civici) was a destination for pilgrims passing by. Reconstructed after being bombed in the Second World War, it contains the famous cappella Ovetari, frescoed by Andrea Mantegna, together with other frescos ascribed to Giusto de’ Menabuoi and parts of frescos by Guariento. In the lower left part of the chapel of the apse you will see allegorical decorations of the five planets known to to antiquity, together with the Sun and Moon. Can you identify them?</string>
+
+    <string name="title_location_8">Scrovegni Chapel</string>
+    <string name="subtitle_location_8">Where Giotto invented the comet</string>
+    <string name="description_location_8">A masterpiece of world art, the chapel was painted by Giotto between 1303 and 1305. It’s a cornucopia of charming visual inventions: a powerful place that almost overwhelms your eyes with the spiritual magic of its frescoes. These depict stories from the New and Old Testament, surmounted by the incredible blue ceiling dotted with stars. That’s where Giotto ‘invented’ the comet as a pictorial subject, representing it for the first time as a ball of fire, with its long tail upwards and the brilliance of the gold tempera painting filling it with light. The inspiration? Maybe Halley’s Comet, visible in the sky when Giotto was working.</string>
+
+    <string name="title_location_9">Caffè Pedrocchi</string>
+    <string name="subtitle_location_9">An Egyptian sky at the heart of town</string>
+    <string name="description_location_9">Opened in 1831, the Pedrocchi is Padua’s historical café. For years, it has been the meeting point for intellectuals, professors and students. Designed by Giuseppe Jappelli, it was originally open twenty-four hours a day, and that’s why it was known as the “café without doors”. It was at the centre of the upheavals of the Italian Risorgimento, and you can still find the hole made by an Austrian bullet during the riots. Among the various rooms of the upper floor, the Egyptian room reveals unusual attractions: a winged sun that decorates the architrave of the Egyptian-style façade and a splendid starry sky on the ceiling, maybe not Egyptian and only decorative… but it doesn’t matter, it’s still beautiful!</string>
+
+    <string name="title_location_10">Orologio Civile</string>
+    <string name="subtitle_location_10">The time of the town</string>
+    <string name="description_location_10">When the clock was built, civil time replaced the sun and the bells of the churches in marking out everyday activities. Its location was strategic: in the nerve centre for commercial exchanges, right next to the busiest squares crowded with people going about their everyday business, and just over from the cattle market and the place where you could rent carriages. Even today, it’s still a lively place, where you can take part in the noble art of the promenade so loved by locals, students and tourists.</string>
+
+    <string name="title_location_11">Il Bo</string>
+    <string name="subtitle_location_11">Galileo’s University</string>
+    <string name="description_location_11">Università di Padova was founded in 1222, and is one of the oldest and most prestigious in the world. Also known as the Bo, because it was once the location of the inn Hospitium Bovis, it has the head of a bull as a symbol. Entering the Cortile Antico, the ancient courtyard, you’ll find yourself surrounded by many coats of arms decorated by heraldic stars, in memory of illustrious students and professors. On the upper floors surrounding the courtyard, you will find the Great Hall, where Galileo gave his crowded lectures, and the Sala dei Quaranta, which preserves his chair. You can also visit the anatomical theatre, the first example in the world of a permanent structure created to teach anatomy.</string>
+
+    <string name="title_location_12">Palazzo della Ragione</string>
+    <string name="subtitle_location_12">Sundials and astronomical stories</string>
+    <string name="description_location_12">Seat of the town court until 1797, the Palazzo della Ragione remains the centre of public and commercial life. It is also called the Salone, because the upper floor contain a hall with an enormous loggia, decorated with a cycle of great frescoes with astrological-astronomic subjects. The ground floor hosts a typical indoor market  and just outside, tables and chairs ideal if you need to take a break. Looking up, there it is: the sundial of Palazzo della Ragione, that once held a fundamental role in this commercial area.</string>
+
+    <string name="title_location_13">Toward Santa Lucia</string>
+    <string name="subtitle_location_13">Stars where you least expect them</string>
+    <string name="description_location_13">Today an elegant area of chic boutiques, the network of streets that goes from via San Fermo to Santa Lucia was once one of the most popular areas of the town. Walking around with your head in the clouds you can find comet stars with wavy tails, hidden on the vaults of the galleries and between ancient buildings. The most illustrious of these ancient palaces looks out onto via Marsilio. It’s the house of Ezzelino, tyrant of Padua in 1200.</string>
+
+    <string name="title_location_14">Oratorio di San Rocco</string>
+    <string name="subtitle_location_14">A starry sky for a roof</string>
+    <string name="description_location_14">In via Santa Lucia, just next to the church, on an area originally set aside for a cemetery, you’ll find the Oratorio di San Rocco. Built between 1525 and 1542, it is a charming building of great beauty. Two frescoed rooms depicting Saint Rocco’s life. As you enjoy the wonder of the place, a canopy of stars will open before you.</string>
+
+    <string name="title_location_15">Piazza dei Signori</string>
+    <string name="subtitle_location_15">Dondi’s clock and the hidden scorpion</string>
+    <string name="description_location_15">The square of the lords, so-called because the rulers of Padua, the Carraresi, lived there. It has now become the most elegant square of Padua. Its fifteenth-century elegance is framed by other prestigious buildings: the Loggia della Gran Guardia, the San Clemente church and, opposite, the palazzo del Capitanio and the Torre dell’Orologio. The latter, designed by Jacopo Dondi, is an astronomical and astrological clock, the first in Europe. It depicts the Sun, the Moon and the planets, all moving inside a band of sky containing by the Zodiac. Curiously, instead of the usual symbol for Libra, you will find the claws of a Scorpion instead. Is it the same scorpion you find hidden on a column of the square?</string>
+
+    <string name="title_location_16">Chiesa di San Nicolò</string>
+    <string name="subtitle_location_16">A canopy of stars</string>
+    <string name="description_location_16">This corner of the town is a “secret” place, far from traffic and the crowd, enchanting and charming. On piazzetta San Nicolò sits the eponymous church, a miniature jewel, which contain frescoes, a great work of art and also a fragment of sky: the light blue canopy of stars coating the dress of the terracotta statue of the Virgin Mary, who holds the baby Jesus.</string>
+
+    <string name="title_location_17">Il Battistero del Duomo</string>
+    <string name="subtitle_location_17">The creation of the Universe</string>
+    <string name="description_location_17">In the area right behind the Ghetto, the pavement in front of the Duomo becomes a “square” for children playing and students on a short break. It hosts the Romanesque baptistery frescoed by Giusto de’ Menabuoi with scenes from the Old and New Testament, the Apocalypse and the Paradise. Notice the panel representing the creation of the world, a fascinating example of how the sky and the Earth were depicted according to the astronomical and geographical knowledge of the time.</string>
+
+    <string name="title_location_18">Piazza Capitaniato</string>
+    <string name="subtitle_location_18">Accademia galileiana</string>
+    <string name="description_location_18">Piazza Capitaniato is familiar and elegant. It seems to invite you to stop for a break among its trees, its bicycles, the coming and going of the students. An intimate but lively place, once occupied by the Reggia dei Carraresi, the lords of Padua. The Reggia, today represented only by Sala dei Giganti and the loggia (in via Accademia),  was a meeting point for intellectuals and artists, including Galileo, Petrarch and the painter Guariento. The Reggia later became the seat of the Accademia Galileiana: a prestigious institution, founded in 1599, which brought together University professors, artists and thinkers, like Galileo himself. Today, the academy is still dedicated to cultural activities.</string>
+
+    <string name="title_location_19">Chiesa di San Pietro</string>
+    <string name="subtitle_location_19">The church with two skies</string>
+    <string name="description_location_19">Continuing your walk beyond the trees of piazza Capitaniato,  you will reach the borders of another Padua, quiet and ancient. Enjoy via Patriarcato, and follow it to the church of San Pietro, which is almost camouflaged between the palaces of the street that bears its name. Inside you will discover two starry skies: the first, inside the great dome above the altar, depicting the four evangelists; the second, intense and encircling, in the chapel dedicated to the Black Madonna of Loreto.the altar, depicting the four evangelists; the second, intense and encircling, in the chapel dedicated to the Black Madonna of Loreto.</string>
+
+    <string name="title_location_20">Chiesa di San Tomaso</string>
+    <string name="subtitle_location_20">The mysterious sky</string>
+    <string name="description_location_20">On Sant’Agostino bridge – which connects the riviera Paleocapa with piazza Castello – you will find this little-known church, which has a mysterious charm all of its own. If you have a look inside, you can see a gloomy sky, with a celestial object. The nature and meaning of this object remain uncertain even today.</string>
+
+    <string name="title_location_21">Specola</string>
+    <string name="subtitle_location_21">The way to the stars</string>
+    <string name="description_location_21">The Specola appears framed by trees, water and sky, in a corner filled with silence and beauty. Originally the tower of the Carraresi castle and even before the place where the tyrant Ezzelino locked up and tortured his prisoners, in the eighteenth century it was converted to an observatory, becoming the astronomical specula. Today it is the headquarters of the National Institute of Astrophysics and of the Museo La Specola. Inside, you will discover a universe suspended in time, a maze of vaults, stairs and corridors in which to explore the work of astronomers.</string>
+
+    <!-- Badges -->
+    <string name="badge_title_1">Halley</string>
+    <string name="badge_desc_1">You have traveled more than 5 kms</string>
+
+    <string name="badge_title_2">Traveler</string>
+    <string name="badge_desc_2">You found 5 locations</string>
+
+    <string name="badge_title_3">Flat-Earther</string>
+    <string name="badge_desc_3">Commit 10 mistakes in a game</string>
+    <string name="new_destination_set_partI">Do you want to set&#160;</string>
+    <string name="new_destination_set_partII">&#160;as your destination?</string>
+
+    <!-- Tutorial -->
+    <string name="firts_open_role_tutorial_1">Welcome!\nThis is SpaceRoverExpress\nI\'ll be your virtual assistant during this trip to the city of Padua!</string>
+    <string name="firts_open_role_tutorial_2">but before leaving...\nyou need a companion who uses the application</string>
+    <string name="firts_open_role_tutorial_3">select your role between Pilot and Assistant</string>
+
+    <string name="first_map_tutorial_1">
+        This is the navigation map.
+        \n
+        Walk to Padua to discover their places of interest.
+    </string>
+
+    <string name="first_above_tutorial_1">
+        Select one of the places you want to reach and I\'ll guide you to it.
+    </string>
+
+    <!-- Preferences Options -->
+    <string name="rover_options_title">Game options</string>
+    <string name="manual_map_state_title">Fly mode</string>
+    <string name="manual_map_state_summary">Let your rover fly like Superman!</string>
+    <string name="map_zoom_title">Map zoom</string>
+    <string name="map_zoom_summary">Because everyone want a cool zoom on his phone. Don\'t you?</string>
+    <string name="map_compass">Compass</string>
+    <string name="map_compass_summary">"Why doesn\'t your compass work?"</string>
+    <string name="other_option_title">Other</string>
+    <string name="clear_shared_pref">Delete game data</string>
+
+    <!-- Options Dialogs -->
+    <string name="clear_sp_dialog_message">Are you sure to delete all your game data?</string>
+    <string name="clear_sp_dialog_title">Delete game data</string>
+
+    <!-- End game -->
+    <string name="time">Time:</string>
+    <string name="attempts">Attempts:</string>
+    <string name="score">Score:</string>
+    <string name="score_total">Total score:</string>
+
+    <!-- Manual -->
+    <string name="manual_title">MANUAL</string>
+    <string name="manual_start_explain">
+        Wait until the pilot discovers a point of interest.
+        \n\n
+        As soon as a place is discovered, ask the pilot for the Status Code
+        which will appear in his terminal.
+        \n\n
+        For each location found the <b>Status Code</b>> will be different, then return here to enter a new one!
+        Enter the code to access the game manual. You will have to face two tests to continue, will you be up to?
+    </string>
+
+    <string name="manual_decrypto_description">
+        In order to solve the game, the pilot must enter the correct four digit sequence.
+        \n\n
+        To each simbol corresponds a numerical value.
+    </string>
+    <string name="manual_decrypto_explain_1">step 1 dec</string>
+    <string name="manual_decrypto_explain_2">step 2 dec</string>
+    <string name="manual_decrypto_explain_3">step 3 dec</string>
+
+    <string name="manual_color_buttons_description">
+        Four buttons ... four different sequences, but only one will open the second door!
+    </string>
+    <string name="manual_color_buttons_explain_1">Communicate with the pilot to see which buttons are there</string>
+    <string name="manual_color_buttons_explain_2">One of these four lists contains the exact buttons; Find it!</string>
+    <string name="manual_color_buttons_explain_3">Tell the pilot the exact order with which the labels appear</string>
+
+    <string name="manual_next_button">NEXT</string>
+    <string name="manual_cancel_button">CANCEL</string>
+
+    <string name="toast_color_button">Press all buttons before check</string>
+
+
+    <!-- GRAV library needed -->
+    <string name="circle">
+        M527.023,71.8233 C780.213,71.8233,985.464,277.075,985.464,530.265
+        C985.464,783.455,780.213,988.707,527.023,988.707
+        C273.832,988.707,68.5809,783.455,68.5809,530.265
+        C68.5809,277.075,273.832,71.8233,527.023,71.8233 Z
+    </string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <integer name="circle_original_width">550</integer>
+    <integer name="circle_original_height">550</integer>
+
+    <string name="default_game_title">DEFAULT GAME</string>
+    <string name="terminal_title">TERMINAL</string>
+    <string name="decrypto_title">DECRYPTO</string>
+    <string name="color_buttons_title">COLOR BUTTONS</string>
+
+    <string name="gps_dialog_alert">Position is needed</string>
+    <string name="game_option_title">Game</string>
+    <string name="pilot_assistant_mode_title">Pilot assistent mode</string>
+    <string name="pilot_assistant_mode_summary">Are you play alone? No problem.</string>
+    <string name="fly_mode">Fly mode enable</string>
+    <string name="go_ahead">Enable</string>
+    <string name="plase_note_dialog_title">Please note</string>
+    <string name="manual_mode_message_dialog">Enable this game mode can ruin the game experience, enable it only if you want test the app.</string>
+    <string name="compass_message_dialog">Disable it only if you want a more stability on map view.</string>
+    <string name="disable">Disable</string>
+    <string name="game_end_title">Done!</string>
+    <string name="offline_msg">You are offline</string>
+
+</resources>

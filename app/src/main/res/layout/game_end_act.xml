@@ -1,0 +1,211 @@
+<!--
+Space Rover Express
+Copyright (C) 2017 Codernauti
+Eduard Bicego, Federico Ghirardelli
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/silver_light">
+
+    <TextView
+        android:id="@+id/game_end_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/game_end_title"
+        android:textSize="23sp"
+        android:padding="6dp"
+
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintVertical_bias="0.3"
+
+        app:layout_constraintBottom_toTopOf="@+id/game_end_time_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/game_end_time_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/time"
+
+        app:layout_constraintBottom_toTopOf="@+id/game_end_attempts_label"
+        app:layout_constraintEnd_toStartOf="@id/game_end_time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/game_end_title" />
+
+    <TextView
+        android:id="@+id/game_end_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="3:13"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/game_end_time_label"
+        app:layout_constraintTop_toTopOf="@+id/game_end_time_label"
+        app:layout_constraintBottom_toBottomOf="@+id/game_end_time_label"
+        />
+
+
+    <TextView
+        android:id="@+id/game_end_attempts_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/attempts"
+
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+
+        app:layout_constraintEnd_toStartOf="@id/game_end_attempts"
+        app:layout_constraintStart_toStartOf="@+id/game_end_time_label"
+        app:layout_constraintTop_toBottomOf="@+id/game_end_time_label"
+        app:layout_constraintBottom_toTopOf="@+id/game_end_stars"
+        />
+
+
+    <TextView
+        android:id="@+id/game_end_attempts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        tools:text="5"
+
+        app:layout_constraintHorizontal_bias="1"
+
+        app:layout_constraintEnd_toEndOf="@+id/game_end_time"
+        app:layout_constraintStart_toEndOf="@+id/game_end_attempts_label"
+        app:layout_constraintTop_toTopOf="@+id/game_end_attempts_label"
+        app:layout_constraintBottom_toBottomOf="@+id/game_end_attempts_label"
+        />
+
+    <LinearLayout
+        android:id="@+id/game_end_stars"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+        app:layout_constraintTop_toBottomOf="@id/game_end_attempts_label"
+        app:layout_constraintStart_toStartOf="@+id/game_end_attempts_label"
+        app:layout_constraintEnd_toEndOf="@+id/game_end_attempts"
+        app:layout_constraintBottom_toTopOf="@+id/game_end_score_label"
+        >
+
+        <!--<include layout="@layout/game_end_score_item" />
+        <include layout="@layout/game_end_score_item" />
+        <include layout="@layout/game_end_score_item" />
+        <include layout="@layout/game_end_score_item" />
+        <include layout="@layout/game_end_score_item" />-->
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/game_end_score_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/score"
+
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+
+        app:layout_constraintTop_toBottomOf="@id/game_end_stars"
+        app:layout_constraintStart_toStartOf="@id/game_end_time_label"
+        app:layout_constraintEnd_toStartOf="@id/game_end_score"
+        app:layout_constraintBottom_toTopOf="@id/game_end_total_score_label"
+
+        />
+
+    <TextView
+        android:id="@+id/game_end_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        tools:text="5000"
+
+        app:layout_constraintTop_toTopOf="@id/game_end_score_label"
+        app:layout_constraintStart_toEndOf="@id/game_end_score_label"
+        app:layout_constraintEnd_toEndOf="@id/game_end_time"
+        app:layout_constraintBottom_toBottomOf="@id/game_end_score_label"
+        />
+
+    <TextView
+        android:id="@+id/game_end_total_score_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/score_total"
+
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+
+        app:layout_constraintTop_toBottomOf="@id/game_end_score_label"
+        app:layout_constraintStart_toStartOf="@id/game_end_time_label"
+        app:layout_constraintEnd_toStartOf="@id/game_end_total_score"
+        app:layout_constraintBottom_toTopOf="@id/game_end_map_icon"
+
+        />
+
+    <TextView
+        android:id="@+id/game_end_total_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        tools:text="500000"
+
+        app:layout_constraintTop_toTopOf="@id/game_end_total_score_label"
+        app:layout_constraintStart_toEndOf="@id/game_end_total_score_label"
+        app:layout_constraintEnd_toEndOf="@id/game_end_time"
+        app:layout_constraintBottom_toBottomOf="@id/game_end_total_score_label"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/game_end_map_icon"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/icon_map"
+
+        app:layout_constraintBottom_toBottomOf="@+id/game_end_new_location_found"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/game_end_total_score" />
+
+    <TextView
+        android:id="@+id/game_end_new_location_found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="@string/new_location_found"
+
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/game_end_map_icon"
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>

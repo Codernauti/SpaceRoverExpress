@@ -1,0 +1,260 @@
+<!--
+Space Rover Express
+Copyright (C) 2017 Codernauti
+Eduard Bicego, Federico Ghirardelli
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+<resources>
+    <string name="app_name">SpaceRoverExpress</string>
+    <string name="unlock">APRI</string>
+
+
+
+    <!-- Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="home">Home</string>
+    <string name="badges">Badges</string>
+    <string name="statistics">Statistiche</string>
+    <string name="settings">Settings</string>
+    <string name="share">Condividi</string>
+    <string name="credits">Credits</string>
+
+    <string name="select_language">Seleziona la lingua</string>
+    <string name="select_role">Seleziona il tuo ruolo</string>
+
+    <string name="game">Game</string>
+
+    <!-- BottonNavigation -->
+    <string name="bottom_nav_map">Mappa</string>
+    <string name="bottom_nav_statistics">Statistiche</string>
+    <string name="bottom_nav_options">Opzioni</string>
+
+    <!-- Triggered dialog -->
+    <string name="trigger_location_found_dialog">Hai scoperto</string>
+    <string name="trigger_location_start">Continua</string>
+
+    <!-- Game -->
+    <string name="decrypto_button_unlock">APRI</string>
+    <string name="color_button_done">FATTO</string>
+    <string name="new_location_found">Nuovo luogo scoperto!</string>
+    <string name="first_game_tutorial">Trova il Status Code e comunicalo al tuo assistente</string>
+
+    <!-- Stats -->
+    <string name="rover">Rover</string>
+    <string name="level_default">Livello</string>
+    <string name="km_traveled">Chilometri percorsi: </string>
+    <string name="experience_label">Esperienza totale: </string>
+    <string name="location_found_value">0</string>
+    <string name="location_found_label">punti di interesse trovati: </string>
+    <string name="badge_unlocked_value">0</string>
+    <string name="badges_unlocked_label">badge sbloccati: </string>
+
+    <string name="loremipsus">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+    <!-- MapState -->
+    <string name="change_to_above_map_view">Visuale dall\'alto</string>
+    <string name="change_to_gps_map_view">Visuale rover</string>
+    <string name="change_to_fly_mode">Fly mode attiva</string>
+
+    <string name="title_location_1">Prato della Valle</string>
+    <string name="subtitle_location_1">Appuntamento con Galileo</string>
+    <string name="description_location_1">Sguardo rivolto al cielo e braccio che indica qualcosa lassù: avevate mai incontrato Galileo Galilei a Padova? Lo troverete nello scenografico Prato della Valle, raffigurato in una delle 78 statue di personaggi illustri che decorano la piazza più grande della città (e forse d’Europa!). Prato della Valle è nato alla fine del Settecento dalla bonifica di un territorio paludoso ed è di forma ellittica, con un’isola al centro. È da sempre luogo di vita pulsante e ogni sabato ospita un animato mercato.</string>
+
+    <string name="title_location_2">Basilica di Sant’Antonio</string>
+    <string name="subtitle_location_2">Dove splende il Sole di Mantegna</string>
+    <string name="description_location_2">È il Santo senza nome, Sant’Antonio. Così universale e amato a Padova da non aver bisogno di essere nominato. Nella “sua” grandiosa Basilica nei secoli hanno lavorato Giotto, Donatello, Mantegna, Giusto de’Menabuoi. Le cupole, i chiostri e le opere d’arte raccontano di devozione, spiritualità e bellezza. All’interno si celano anche numerose volte stellate e, sul portale, uno splendido Sole, copia di quello realizzato dal Mantegna e custodito all’interno, a evocare l’antichissimo legame tra Sole e divinità.</string>
+
+    <string name="title_location_3">A casa di Galileo</string>
+    <string name="subtitle_location_3"> </string>
+    <string name="description_location_3">A Padova Galileo Galilei visse “li diciotto anni migliori di tutta la mia vita”, insegnando, studiando e osservando il cielo. Abitava in una via chiamata allora Borgo Vignali e diventata ora via Galileo Galilei. Pare che da qui scoprì i satelliti di Giove, dando inizio in un certo senso al metodo scientifico. La casa non è visitabile ma una targa ricorda lo scienziato. Per il resto, lasciate correre l’immaginazione!</string>
+
+    <string name="title_location_4">Chiesa di San Francesco</string>
+    <string name="subtitle_location_4">Le stelle addosso</string>
+    <string name="description_location_4">Una chiesa bellissima e poco frequentata, scandita all’esterno da 26 archi e quasi nascosta tra i portici. Un tempo era parte di un grandioso complesso, edificato a partire dal XV secolo, che comprendeva un convento, il primo ospedale di Padova, la Scuola della Carità e l’Oratorio di Santa Margherita. Nella chiesa, tra un giardino quasi segreto e una tela attribuita al Veronese, si cela una lapide dedicata a una certa Stella Stella dal figlio.</string>
+
+    <string name="title_location_5">Chiesa di Santa Sofia</string>
+    <string name="subtitle_location_5">Sulle tracce di Galileo</string>
+    <string name="description_location_5">Una delle chiese più antiche della città, caratterizzata dal contrasto tra l’elegante struttura esterna e la straordinaria semplicità dell’interno. La sua facciata inclinata può intimorire ma vale la pena di entrare perché, all’interno, si celano altre tracce di Galileo. In fondo alla navata centrale si trova infatti il fonte battesimale in cui venne battezzato Vincenzo, terzo e ultimo figlio dello scienziato.</string>
+
+    <string name="title_location_6">Borgo Altinate</string>
+    <string name="subtitle_location_6">Il senso delle stelle</string>
+    <string name="description_location_6">Il borgo si trovava in un punto nevralgico di Padova perché vicino ai principali canali cittadini, ora interrati. Ancora oggi si intuiscono la storia e la ricchezza culturale della zona: palazzi nobili, il conservatorio Pollini e il Centro Culturale Altinate creano un’atmosfera vivace che invita al passeggio fino a porta Altinate. Appena prima di arrivarvi, si può scorgere una curiosa “stella” a sei punte rappresentata su uno scudo. Per alcuni sarebbe il simbolo dell’antico quartiere, per altri la ruota di un torchio per la stampa tipografica, a ricordo della prima famiglia di editori della città.</string>
+
+    <string name="title_location_7">Chiesa degli Eremitani</string>
+    <string name="subtitle_location_7">Il volto dei pianeti</string>
+    <string name="description_location_7">È conosciuta come chiesa degli Eremitani poiché l’annesso ex convento (che oggi ospita i Musei Civici) era meta dei pellegrini di passaggio. Ricostruita dopo i bombardamenti della seconda guerra mondiale, custodisce la cappella Ovetari, affrescata da Andrea Mantegna, oltre ad affreschi attributi a Giusto de’ Menabuoi e frammenti di affreschi del Guariento. In basso a sinistra, nella cappella absidale, scorgerete decorazioni allegoriche dei cinque pianeti noti nell’antichità, del Sole e della Luna. Li riconoscete?</string>
+
+    <string name="title_location_8">La Cappella degli Scrovegni</string>
+    <string name="subtitle_location_8">Dove Giotto inventò la cometa</string>
+    <string name="description_location_8">Capolavoro dell’arte mondiale, la Cappella fu dipinta da Giotto tra il 1303 e il 1305 in un susseguirsi di invenzioni pittoriche e incanto. Un luogo potente che quasi travolge lo sguardo con la magia spirituale degli affreschi, con storie del Nuovo e Antico Testamento, e dell’incredibile soffitto blu trapuntato di stelle. Qui, Giotto ‘inventò’ la cometa, rappresentandola per la prima volta come una palla di fuoco, con la lunga coda verso l’alto e la lucentezza dei pigmenti a tempera d’oro a infiammarla di luce. L’ispirazione? Forse la Cometa di Halley, che proprio in quegli anni era visibile in cielo.</string>
+
+    <string name="title_location_9">Caffè Pedrocchi</string>
+    <string name="subtitle_location_9">Cielo d’Egitto nel cuore di Padova</string>
+    <string name="description_location_9">Aperto nel 1831, il Pedrocchi è il bar storico di Padova, per anni ritrovo di intellettuali, professori e studenti e centro della vita goliardica. Progettato da Giuseppe Jappelli, restava aperto giorno e notte e a ciò deve la sua fama di ‘caffè senza porte’. Fu al centro del fermento risorgimentale e all’interno si vede ancora il foro del proiettile austriaco che vi si conficcò durante l’Insurrezione. Al piano superiore, svela invece delle suggestioni insolite nella Sala Egizia: un sole alato sull’architrave del portale e uno splendido cielo stellato sul soffitto, forse non d’ispirazione egizia e solo decorativo… ma poco importa, la sua bellezza non muta!</string>
+
+    <string name="title_location_10">Orologio Civile</string>
+    <string name="subtitle_location_10">Il tempo della città</string>
+    <string name="description_location_10">Fu costruito per sostituirsi al sole e alle campane delle chiese nello scandire le attività quotidiane dopo che fu introdotta l’ora civile. Non è un caso che si trovi qui, in un punto del centro cittadino cruciale per il commercio, vicino alle piazze brulicanti di persone e di attività, dal mercato dei bovini al noleggio di carrozze. Ancora oggi questo è un luogo vitalissimo, in cui si consuma la nobile arte del passeggio, così amata da padovani, studenti e turisti.</string>
+
+    <string name="title_location_11">Il Bo</string>
+    <string name="subtitle_location_11">L’università di Galileo</string>
+    <string name="description_location_11">È la sede di uno degli atenei più antichi e prestigiosi al mondo, fondato nel 1222. Conosciuto anche come Bo, poiché qui sorgeva la locanda Hospitium Bovis, ha per simbolo il cranio di un bue. Entrando nel Cortile Antico ci si trova circondati da stemmi decorati con stelle araldiche, posti a ricordo da illustri studenti e professori. Ai piani superiori si trovano l’Aula Magna, in cui Galileo teneva le sue lezioni, e la Sala dei Quaranta, dove è conservata quella che si dice fosse la sua cattedra. Visitate anche il Teatro Anatomico, primo esempio al mondo di struttura permanente creata per l’insegnamento dell’anatomia.</string>
+
+    <string name="title_location_12">Palazzo della Ragione</string>
+    <string name="subtitle_location_12">Tra meridiane e racconti astronomici</string>
+    <string name="description_location_12">Antica sede del tribunale cittadino, è ancora oggi al centro della vita civile e commerciale. È detto anche Salone perché il piano superiore è costituito da una sala pensile di ampissime dimensioni, decorata con un ciclo di affreschi a tema astrologico-astronomico di grande intensità. Al piano terra ospita un caratteristico mercato coperto e, appena fuori, una distesa di tavolini ideali per una pausa. Alzando lo sguardo scorgerete la meridiana di Palazzo della Ragione, che in passato svolse un ruolo fondamentale in quest’area destinata al commercio.</string>
+
+    <string name="title_location_13">Verso Santa Lucia</string>
+    <string name="subtitle_location_13">Stelle dove meno te l’aspetti</string>
+    <string name="description_location_13">Ora zona di boutique e passeggio buono, il reticolato di strade che va da via San Fermo a Santa Lucia era un tempo una delle zone più popolari della città. Camminando col naso all’insù si possono scorgere stelle e comete con code ondulate, nascoste sotto i portici e tra antichi edifici. Il più illustre tra questi palazzi è la casa di Ezzelino, tiranno di Padova nel Duecento.</string>
+
+    <string name="title_location_14">Oratorio di San Rocco</string>
+    <string name="subtitle_location_14">E per tetto un cielo di stelle</string>
+    <string name="description_location_14">In via Santa Lucia, proprio accanto alla chiesa, sull’area destinata alle sepolture, sorge l’oratorio di San Rocco. Edificato tra il 1525 e il 1542, è una costruzione di preziosa bellezza, con due sale affrescate raffiguranti la vita del santo. Assaporando la meraviglia del luogo, vi verrà svelato anche un manto stellato.</string>
+
+    <string name="title_location_15">Piazza dei Signori</string>
+    <string name="subtitle_location_15">L’orologio di Dondi e lo scorpione nascosto</string>
+    <string name="description_location_15">Così chiamata perché vi risiedevano i Carraresi, signori della città, è il salotto di Padova. Di eleganza quattrocentesca, è incorniciata da palazzi signorili, dalla Loggia della Gran Guardia, dalla chiesa di San Clemente e, di fronte, dal palazzo del Capitanio e dalla torre dell’Orologio. Quest’ultimo, progettato da Jacopo Dondi, è un orologio astronomico astrologico, il primo in Europa, che raffigura Sole, Luna e pianeti in movimento all’interno di una fascia di cielo con lo Zodiaco. Curioso notare come, al posto del simbolo della Bilancia, si trovino le chele di uno Scorpione. Che sia lo stesso nascosto su una colonna della piazza?</string>
+
+    <string name="title_location_16">Chiesa di San Nicolò</string>
+    <string name="subtitle_location_16">Un manto di stelle</string>
+    <string name="description_location_16">Questo angolo della città è uno scorcio “segreto”, defilato dal traffico e dalla folla, che incanta per il suo fascino. Sulla piazzetta San Nicolò si affaccia la chiesa omonima, un gioiello che custodisce affreschi, opere di valore e anche un piccolo “pezzo” di cielo raffigurato nel manto azzurro trapunto di stelle indossato dalla Madonna con bambino, in una scultura in terracotta.</string>
+
+    <string name="title_location_17">Il Battistero del Duomo</string>
+    <string name="subtitle_location_17">La creazione dell’Universo</string>
+    <string name="description_location_17">Appena alle spalle del Ghetto, il selciato davanti al Duomo diventa “piazza” per bambini che giocano e studenti in pausa dalle lezioni. Ospita il battistero romanico affrescato da Giusto de’ Menabuoi con scene dal Nuovo e Antico Testamento, con l’Apocalisse e il Paradiso. Soffermatevi sul riquadro che rappresenta la Creazione del Mondo, testimonianza affascinante di come il cielo e la terra venivano raffigurati in base alle conoscenze astronomiche e geografiche dell’epoca.</string>
+
+    <string name="title_location_18">Piazza Capitaniato</string>
+    <string name="subtitle_location_18">Accademia galileiana</string>
+    <string name="description_location_18">È familiare ed elegante e sembra invitare a una sosta, tra i suoi alberi, le biciclette, il viavai di studenti. Un luogo intimo e movimentato, un tempo occupato dalla Reggia dei Carraresi, signori di Padova, di cui oggi restano la Sala dei Giganti e la loggia (su via Accademia). La Reggia fu crocevia di intellettuali e artisti, tra cui Galileo, Petrarca e il pittore Guariento, e sede dell’Accademia Galileiana: un’istituzione prestigiosa, fondata nel 1599, che raggruppava professori dell’Università o benemeriti della cultura, come lo stesso Galileo, e ancora oggi è dedicata alla promozione culturale.</string>
+
+    <string name="title_location_19">Chiesa di San Pietro</string>
+    <string name="subtitle_location_19">La chiesa con due cieli</string>
+    <string name="description_location_19">Proseguendo con una passeggiata oltre gli alberi di piazza Capitaniato, esiste un’altra Padova, silenziosa e antica. Godetevi via Patriarcato, raggiungerete così la chiesa di San Pietro quasi mimetizzata tra i palazzi dell’omonima via. All’interno si scoprono due cieli stellati: il primo, nella grande cupola sopra l’altare, con la raffigurazione dei quattro evangelisti e il secondo, avvolgente ed intenso, nella cappella dedicata alla Madonna nera di Loreto.</string>
+
+    <string name="title_location_20">Chiesa di San Tomaso</string>
+    <string name="subtitle_location_20">Il cielo misterioso</string>
+    <string name="description_location_20">Sul ponte Sant’Agostino, che collega riviera Paleocapa a piazza Castello, si trova questa chiesa poco conosciuta e dal fascino misterioso. Affacciandosi al suo interno, si può contemplare un cielo cupo, con un oggetto celeste tutt’ora ambiguo e di dubbia interpretazione.</string>
+
+    <string name="title_location_21">Specola</string>
+    <string name="subtitle_location_21">La via agli astri</string>
+    <string name="description_location_21">La Specola appare incorniciata da alberi, acqua e cielo, in un angolo di quiete e bellezza. In origine torre del castello carrarese e, prima ancora, luogo in cui il tiranno Ezzelino rinchiudeva e torturava i prigionieri, fu adibita a luogo di studio del cielo nel corso del Settecento, diventando così specula astronomica, Osservatorio astronomico. Oggi è sede dell’Istituto Nazionale di Astrofisica e del Museo La Specola; entrando si resterà affascinati da una costruzione sospesa nel tempo, quasi un labirinto di volte, scale e corridoi dove scoprire il lavoro degli astronomi.</string>
+
+    <!-- Badges -->
+    <string name="badge_title_1">Halley</string>
+    <string name="badge_desc_1">hai percorso più di 5 km</string>
+
+    <string name="badge_title_2">Viaggiatore</string>
+    <string name="badge_desc_2">Hai scoperto 5 punti di interesse</string>
+
+    <string name="badge_title_3">Terrapiattista</string>
+    <string name="badge_desc_3">Commetti 10 errori in una partita</string>
+
+    <string name="new_destination_set_partI">Vuoi selezionare&#160;</string>
+    <string name="new_destination_set_partII">&#160;come destinazione?</string>
+
+    <!-- Tutorial -->
+    <string name="firts_open_role_tutorial_1">Benvenuto!\nQuesta è SpaceRoverExpress\nSarò la tua guida virtuale durante questo viaggio nella città di Padova!</string>
+    <string name="firts_open_role_tutorial_2">ma prima di partire...\nhai bisogno di un compagno che utilizzi l\'applicazione assieme a te</string>
+    <string name="firts_open_role_tutorial_3">seleziona il tuo ruolo tra Pilota e Assistente</string>
+
+    <string name="first_map_tutorial_1">
+        Questa è la mappa di navigazione.
+        \n
+        Cammina in lungo e in largo per Padova per scoprire i luoghi di interesse.
+    </string>
+
+    <string name="first_above_tutorial_1">
+        Seleziona una delle località che vuoi raggiungere e ti guiderò verso essa.
+    </string>
+
+    <!-- Preferences Options -->
+    <string name="rover_options_title">Opzioni di gioco</string>
+    <string name="manual_map_state_title">Modalità volo</string>
+    <string name="manual_map_state_summary">Fai volare il tuo rover come Superman!</string>
+    <string name="map_zoom_title">Map zoom</string>
+    <string name="map_zoom_summary">Perché tutti vogliono uno zoom superfigo. Tu no?</string>
+    <string name="other_option_title">Altro</string>
+    <string name="clear_shared_pref">Cancella dati di gioco</string>
+
+    <!-- Options Dialog -->
+    <string name="clear_sp_dialog_message">Sei sicuro di voler eliminare i tuoi dati di gioco?</string>
+    <string name="clear_sp_dialog_title">Elimina dati di gioco</string>
+
+    <!-- End game -->
+    <string name="time">Tempo:</string>
+    <string name="attempts">Tentativi:</string>
+    <string name="score">Punteggio:</string>
+    <string name="score_total">Punteggio totale:</string>
+
+    <!-- Manual -->
+    <string name="manual_title">MANUALE</string>
+    <string name="manual_start_explain">
+        Rimani in attesa che il pilota scopra un punto di interesse.
+        \n\n
+        Non appena un luogo viene scoperto, chiedi al pilota lo Status Code
+        che comparirà nel proprio terminale.
+        \n\n
+        Per ogni località scoperta lo <b>Status Code</b> sarà differente, quindi ritorna qui per inserirne uno nuovo!
+        Inserisci il codice per accedere al manuale di gioco.
+        \n\n
+        Dovrete affrontare due prove per continuare, sarai all\'altezza?
+    </string>
+
+    <string name="manual_decrypto_description">
+        Per poter risolvere il gioco il pilota deve inserire la sequenza corretta di quattro cifre.
+        \n\n
+        Ad ogni simbolo corrisponde un valore numerico.
+    </string>
+    <string name="manual_decrypto_explain_1">step 1 dec</string>
+    <string name="manual_decrypto_explain_2">step 2 dec</string>
+    <string name="manual_decrypto_explain_3">step 3 dec</string>
+
+    <string name="manual_color_buttons_description">
+        Quattro bottoni... quattro sequenze diverse, ma solo una aprirà la seconda porta!
+    </string>
+    <string name="manual_color_buttons_explain_1">Comunica con il pilota per capire quali bottoni sono presenti</string>
+    <string name="manual_color_buttons_explain_2"> Una sola di queste quattro liste contiene i bottoni esatti; Individuala</string>
+    <string name="manual_color_buttons_explain_3">Comunica al pilota l\'ordine esatto con cui si presentano le etichette</string>
+
+    <string name="manual_next_button">Avanti</string>
+    <string name="manual_cancel_button">ANNULLA</string>
+
+    <string name="map_compass">Bussola</string>
+    <string name="map_compass_summary">"Perché la tua bussola non funziona?"</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annulla</string>
+
+    <string name="toast_color_button">È necessario accedere alla posizione</string>
+
+    <string name="terminal_title">TERMINALE</string>
+
+    <string name="gps_dialog_alert">La posizione gps è richiesta</string>
+
+    <string name="game_option_title">Gioco</string>
+    <string name="pilot_assistant_mode_title">Modalità pilota assistente</string>
+    <string name="pilot_assistant_mode_summary">Sei da solo? Nessun problema.</string>
+    <string name="go_ahead">Attiva</string>
+    <string name="plase_note_dialog_title">Nota bene</string>
+    <string name="manual_mode_message_dialog">Attivare questa modalità di gioco può rovinare l\'esperienza di gioco, attivala solo per testare l\'app.</string>
+    <string name="compass_message_dialog">Disabilita solo se vuoi avere maggior stabilità nella vista della mappa.</string>
+    <string name="disable">Disabilita</string>
+    <string name="game_end_title">Fatto!</string>
+    <string name="offline_msg">Sei offline</string>
+
+</resources>

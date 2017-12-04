@@ -1,0 +1,53 @@
+<!--
+Space Rover Express
+Copyright (C) 2017 Codernauti
+Eduard Bicego, Federico Ghirardelli
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/dashboard_menu_map"
+        android:title="@string/bottom_nav_map"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:checkable="true"
+        android:visible="false"
+        />
+
+    <item android:id="@+id/dashboard_menu_statistics"
+        android:title="@string/bottom_nav_statistics"
+        android:icon="@drawable/ic_show_chart_black_24dp"
+        android:checkable="true"
+        android:visible="false"
+        />
+
+    <item android:id="@+id/dashboard_menu_options"
+        android:title="@string/bottom_nav_options"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:checkable="true"
+        android:visible="false"
+        />
+
+    <!--<item android:id="@+id/dashboard_menu_game"
+        android:title="Test game"
+        android:icon="@drawable/ic_toys_black_24dp"
+        android:checkable="true"
+        android:visible="false"
+        />-->
+
+</menu>
